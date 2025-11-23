@@ -1,0 +1,253 @@
+body{
+    padding: 0px 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+       margin-bottom: 90px;
+
+}
+.lis{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.icom{
+    display: none;
+}
+.img{
+width: 50%;
+height: 50%;
+gap: 50px;}
+.btn{
+    border-radius: 10px;
+}
+@media screen and (max-width:1150px) {
+    .lis{
+        display: none;
+    }
+    .icom{
+        display: block;
+    }
+    }
+    
+@media (min-width:450px) and (max-width:1150px) {
+    .img{
+       width: 50%;
+       height: 50%;
+       display: flex;
+    }   
+}
+@media (min-width:0px) and (max-width:400px) {
+    .img{
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+    
+}
+.vegg{
+    display: flex;
+    justify-content: center;
+    font-size:450%;
+    gap: 150px;
+}
+.sides{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 90px;
+
+}
+  
+.frrr{
+    background-color: #EBC30A;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 10px solid #EBC30A;
+}
+.frrrr{
+    background-color:#252525;
+     color: white;
+     width: 200px;
+    height: 50px;
+   margin-bottom: 70px;
+
+
+}
+.frrrr:hover{
+    background-color: #EBC30A;
+        border: 10px solid #EBC30A;
+
+
+}
+.cmm{
+    gap: 150px;
+    margin-bottom: 110px;
+   
+}
+.fssf{
+    display: block;
+    margin: 0px auto;
+}
+.lrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: #050505;  
+    margin-bottom: 90px;
+}
+.fssfr{
+    display: block;
+    margin: 0px auto;
+    
+}
+.lrrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   margin-bottom: 50px;
+    color: #050505;
+}
+.frrll{
+    display:block;
+    margin: 0px auto;
+    background-color: #252525;
+    color: #FBFBFB;
+    width: 180px;
+    height: 50px;
+    
+}
+.lrrs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: #050505;
+    margin-bottom: 25px; 
+}
+.lrrsv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.brd{
+    border: 2px dotted #252525;
+    margin-bottom: 25px;
+}
+.ddd{
+    color: #EBC30A;
+}
+.dfs{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    
+}
+.btnn{
+     background-color:#252525;
+     color: white;
+     width: 110px;
+    height: 50px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+.btnn:hover{
+    background-color:#EBC30A ;
+      border: 10px solid #EBC30A;
+}
+.jhgfds{
+    display: flex;
+  margin: 0px auto;
+}
+.oood{
+    display: flex;
+}
+.clint{
+
+ display: flex;
+  margin: 80px auto 20px auto;
+  justify-content: center;
+  align-items: end;
+  margin-right: 25px;
+}
+.kjhgfd{
+    margin-right: 50px;
+    width: 200px;
+}
+.kkk{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    text-align:left;
+    margin-bottom: 0px;
+}
+.lllll{
+    margin-top: 130px;
+    margin-left: 1000px;
+    margin-bottom: 70px;
+}
+.llkkll{
+    width: 500px;
+    height: 50px;
+    text-align: start;
+    border: none;
+    margin: 1px dotted rgb(118, 116, 116);
+}
+form{
+    border: 1px solid transparent;
+}
+.forn:hover{
+    margin: transparent;
+    border-radius: 15px;
+    display: flex;
+}
+form input {
+  margin-bottom: 40px;
+}
+.mmmdd{
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.fdss{
+    margin-top: 20px;
+    display: flex;
+    align-items:end;
+    gap: 15px;
+}
+.ldad{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.plll{
+    width: 300px;
+    height: 40px;
+}
+.btnnl{
+    background-color:#EBC30A;
+     color: white;
+     width: 130px;
+    height: 50px;
+    margin-top: 25px;
+   margin-bottom: 20px;
+   border-radius: 25px;
+   font-size:large;
+   font-style: bold;
+}
+.trrr{
+    background-color:#252525 ;
+    color: white; 
+    padding: 0px 0px;
+    display: block;
+}
